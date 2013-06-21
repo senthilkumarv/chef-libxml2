@@ -18,8 +18,8 @@
 # limitations under the License.
 #
 
-package "libxml2-dev" do
+package "libxml2-devel" do
   package_name value_for_platform(
-    "default" => "libxml2-dev"
+    "default" => "libxml2-devel"
   )
 end
